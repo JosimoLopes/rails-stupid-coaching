@@ -1,0 +1,14 @@
+<div class="d-flex flex-column align-items-center mt-5">
+  <div class="shadow p-3 bg-body rounded py-5 px-5 w-75 pb-3">
+  <div>
+    <p class="fs-4 mb-0"><%= params[:user_question] %></p>
+    <p class="fs-6 mb-4">-You</p>
+    <p class="fs-2 mb-0"><%= @answer %></p>
+    <p class="fs-6 mt-0">-Your Coach</p>
+  </div>
+
+  <div class="text-center mt-5">
+  <p class="text-decoration-none"><%= link_to 'Ask a new question', ask_path, :class => "text-decoration-none" %></p>
+  </div>
+  </div>
+</div>
